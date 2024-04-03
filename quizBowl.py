@@ -30,13 +30,15 @@ class QuestionAnswer:
         self.correctAnswer = correctAnswer
         self.frameQA = ttk.Frame(master, relief="raised", padding=(5, 5))
         self.frameQA.pack()
-        self.label1 = ttk.Label(self.frameQA, text=strQuestion)
-        self.label1.pack()
-        self.answerOptions = ttk.Combobox(self.frameQA, values=listAnswers)
+        self.frameQA.grid_propagate(False)
+        self.frameQA.config(width=400, height=100)
+        self.label1 = ttk.Label(self.frameQA, text=strQuestion, wraplength=380)
+        self.label1.pack(fill="both")
+        self.answerOptions = ttk.Combobox(self.frameQA, values=listAnswers, width=30)
         self.answerOptions.pack()
-        self.labelFeedback = ttk.Label(self.frameQA)
+        self.labelFeedback = ttk.Label(self.frameQA, width=40, anchor="center")
         self.labelFeedback.pack()
-        self.testButton = ttk.Button(self.frameQA, text="Submit", command=self.checkAnswer)
+        self.testButton = ttk.Button(self.frameQA, text="Submit", command=self.checkAnswer, width=10)
         self.testButton.pack()
 
     def checkAnswer(self):
