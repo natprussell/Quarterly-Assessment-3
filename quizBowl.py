@@ -44,6 +44,7 @@ class QuestionAnswer:
             self.labelFeedback.config(text="Correct!", foreground="green")
         else:
             self.labelFeedback.config(text=f"Incorrect! The correct answer is: {self.correctAnswer}", foreground="red")
+        self.testButton.config(state="disabled")
 
 class SelectSubject:
     def __init__(self, root):
