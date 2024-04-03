@@ -88,7 +88,7 @@ questions = [
     {
         "question": "Which of the following is considered a fixed asset on the firm's balance sheet?",
         "options": ["Inventory", "Bonds", "Copyrights", "Notes payable"],
-        "correct_answer": "D and F",
+        "correct_answer": "Copyrights",
         "subject": "ManagerialFinance"
     },
     {
@@ -189,14 +189,14 @@ questions = [
     },
     {
         "question": "Python recognizes PEMDAS (true/false)?",
-        "options": ["true", "false", "maybe", "sometimes"],
-        "correct_answer": "true",
+        "options": ["True", "False", "Maybe", "Sometimes"],
+        "correct_answer": "True",
         "subject": "ApplicationsDevelopment"
     },
     {
         "question": "Variable names can include spaces (true/false)?",
-        "options": ["true", "false", "maybe", "sometimes"],
-        "correct_answer": "false",
+        "options": ["True", "False", "Maybe", "Sometimes"],
+        "correct_answer": "False",
         "subject": "ApplicationsDevelopment"
     },
     {
@@ -219,20 +219,20 @@ questions = [
     },
     {
         "question": "What module would you import to generate random integers?",
-        "options": ["math module", "statistics module", "random module", "time module"],
-        "correct_answer": "random module",
+        "options": ["Math Module", "Statistics Module", "Random Module", "Time Module"],
+        "correct_answer": "Random Module",
         "subject": "ApplicationsDevelopment"
     },
     {
         "question": "An example of a loop that repeats an action a predefined number of times?",
-        "options": ["while loop", "do-while loop", "for loop", "until loop"],
-        "correct_answer": "for loop",
+        "options": ["While Loop", "Do-While Loop", "For Loop", "Until Loop"],
+        "correct_answer": "For Loop",
         "subject": "ApplicationsDevelopment"
     },
     {
         "question": "An example of a loop that repeats an action until the program determines it needs to stop?",
-        "options": ["for loop", "until loop", "do-while loop", "while loop"],
-        "correct_answer": "while loop",
+        "options": ["For Loop", "Until Loop", "Do-While loop", "While Loop"],
+        "correct_answer": "While Loop",
         "subject": "ApplicationsDevelopment"
     },
     {
