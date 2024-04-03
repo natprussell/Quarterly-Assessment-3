@@ -229,6 +229,18 @@ questions = [
         "correct_answer": "for loop",
         "subject": "ApplicationsDevelopment"
     },
+    {
+        "question": "An example of a loop that repeats an action until the program determines it needs to stop?",
+        "options": ["for loop", "until loop", "do-while loop", "while loop"],
+        "correct_answer": "while loop",
+        "subject": "ApplicationsDevelopment"
+    },
+    {
+        "question": "An ordered arrangement of objects/ elements is what?",
+        "options": ["Sequence", "Array", "List", "Tuple"],
+        "correct_answer": "Sequence",
+        "subject": "ApplicationsDevelopment"
+    },
      {
         "question": "What is a payment to support the cost of government?",
         "options": ["Fee", "Tariff", "Fine", "Tax"],
