@@ -71,6 +71,8 @@ class SelectSubject:
     
     def select_subject_window(self):
         self.subjects = self.load_subjects()
+        self.label = ttk.Label(self.root, text="Please pick a subject below.")
+        self.label.pack(pady=5) 
         self.subject_combobox = ttk.Combobox(self.root, values=self.subjects)
         self.subject_combobox.pack(pady=10)
         self.button_to_quiz.pack(pady=10)
